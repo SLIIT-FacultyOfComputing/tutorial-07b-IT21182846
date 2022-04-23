@@ -22,6 +22,14 @@ int main() {
    // 6. Call the display method of the Circle Object
    // 7. Delete the Rectangle Object from memory
    // 8. Delete the Circle Object from memory
+  Rectangle r(length,width);
+  Circle c(radius);
+  //r=new Rectangle(length,width)
+  //c=new Circle(radius);
+  r.display();
+  c.display();
+  //delete r;
+  //delete c;
   
   
    // ============ DO NOT CHANGE THE CODE BELOW ===================
